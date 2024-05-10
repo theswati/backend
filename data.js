@@ -1,6 +1,22 @@
 //create product array
 
 const data={
+
+  users:[
+    {
+      name:'swati',
+      email:'admin@example.com',
+      password:bcrypt.hashsync('123456'),
+      isAdmin:true
+    },
+    {
+      name:'John',
+      email:'user@example.com',
+      password:bcrypt.hashsync('123456'),
+      isAdmin:false,
+    },
+  ],
+
     products:[
         {
             // _id:'1',
