@@ -1,4 +1,6 @@
 //create product array
+// const bcrypt = require("bcryptjs")
+import bcrypt from "bcryptjs"
 
 const data={
 
@@ -6,13 +8,13 @@ const data={
     {
       name:'swati',
       email:'admin@example.com',
-      password:bcrypt.hashsync('123456'),
+      password: bcrypt.hashSync('123456'),
       isAdmin:true
     },
     {
       name:'John',
       email:'user@example.com',
-      password:bcrypt.hashsync('123456'),
+      password:bcrypt.hashSync('123456'),
       isAdmin:false,
     },
   ],
